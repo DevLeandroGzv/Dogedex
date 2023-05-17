@@ -1,6 +1,9 @@
 package com.leamdro.dogedex
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class Dog(
     val id: Long,
     val index: Int,
@@ -13,7 +16,7 @@ data class Dog(
     val temperament: String,
     val WeightFemale: String,
     val WeightMale: String
-) {
+) : Parcelable {
 
 
 }

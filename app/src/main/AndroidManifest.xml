@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Dogedex"
         tools:targetApi="31">
         <activity
-            android:name=".DogDetailActivity"
+            android:name=".dogdetail.DogDetailActivity"
             android:exported="false" />
         <activity
             android:name=".doglist.DogListActivity"
